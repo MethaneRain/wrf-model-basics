@@ -5,9 +5,9 @@ For the most basic run of the WRF, GFS data is injested. The initial tutorial fr
 The file ```grab_data.sh``` is a bash script that needs both ```.py``` and some necessary command line arguments. 
 The command line arguments needed are as followed (in specific order):
 <ol>
-<li>date</li>
-<li>model</li>
-<li>model product</li>
-<li>initialization hour</li>
-<li>forecast time delta</li>
+<li>date - ie 20200618</li>
+<li>model - ie gfs</li>
+<li>model product - ie halfdeg (this comes form a dictinoary key in .py)</li>
+<li>initialization hour - ie 00</li>
+<li>forecast time delta - ie 48 (in hours)</li>
 </ol>
