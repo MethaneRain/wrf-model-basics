@@ -1,6 +1,6 @@
 
 
-cd /Users/chowdahead/WRF/WPS/
+cd ~/WRF/WPS/
 echo "- - - - - - - - - - - - - - - - - -"
 echo "Running the geogrid.exe...."
 echo "- - - - - - - - - - - - - - - - - -"
