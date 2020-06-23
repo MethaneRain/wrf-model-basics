@@ -1,5 +1,5 @@
 
-path=/Users/chowdahead/WRF/
+path=$HOME/WRF/
 dataPath=Build_WRF/DATA/
 cd ${path}${dataPath}
 
