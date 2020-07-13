@@ -6,7 +6,7 @@ echo "Running the geogrid.exe...."
 echo "- - - - - - - - - - - - - - - - - -"
 echo ""
 ./geogrid.exe >& log.geogrid
-./link_grib.csh /Users/chowdahead/WRF/Build_WRF/DATA/
+./link_grib.csh ~/WRF/Build_WRF/DATA/
 ln -sf ungrib/Variable_Tables/Vtable.GFS Vtable
 echo "- - - - - - - - - - - - - - - - - -"
 echo "Running the ungrib.exe..."
