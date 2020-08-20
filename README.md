@@ -11,6 +11,10 @@ So I made a decision that I wanted to build and compile the WRF model on my pers
 
 I'm not a beginner when it comes to dealing with computers and programming, but I don't have any formal education or work experience either so this task was a little overwhelming at first but with the help of NCAR's <a href=https://www2.mmm.ucar.edu/wrf/OnLineTutorial/compilation_tutorial.php>MMM compilation tutorial</a> and numerous others online, I figured I could actually make this happen.
 
-Luckily I had already had Fortran and C compilers up and running on my computer for working with Fortran scripts not too long ago, as well as having NetCDF installed which is fundamental for working with the WRF program. However, I still ran into some hurdles trying to make sure all the ```PATHS``` were pointing to the correct locations. More on that later...
+Luckily I had already had Fortran and C compilers up and running on my computer for working with Fortran scripts not too long ago, as well as having NetCDF installed which is fundamental for working with the WRF program. However, I still ran into some hurdles trying to make sure all the ```PATHS``` were pointing to the correct locations for the gcc and gfortran since I upgraded the stock Mac versions from Macports to Homebrew. The workaround this for me was to make alias for the command line paths for ```gcc``` and ```gfortran``` in my ```.bash_profile``` to point to where Brew installs the updated gcc compilers.
+
+
+
+
 
 
