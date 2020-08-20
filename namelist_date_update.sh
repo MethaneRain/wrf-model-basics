@@ -1,5 +1,5 @@
 # This script will update a template namelist file for the WPS preproccessing
-# and rename the namelist.wps file
+# and create/update the namelist.wps file
 
 # Command line arguments:
 
