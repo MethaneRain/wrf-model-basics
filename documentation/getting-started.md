@@ -28,4 +28,4 @@ This will update all the date and time info needed in the ```namelist.wps``` and
 
 ```$ compile_and_run_wrf.sh```
 
-This will create all the necessary ```.exe``` files by running the ```geogrid.exe```, ```ungrib.exe```, and ```metgrid.exe``` files. Then it executes the ```real.exe``` (which can be changed for ideal in the future) and finally executes the ```wrf.exe```
+This will create all the necessary ```.exe``` files by running the ```geogrid.exe```, ```ungrib.exe```, and ```metgrid.exe``` files. Then it executes the ```real.exe``` (which can be changed for ideal in the future) and finally executes the ```wrf.exe``` and lists all the wrf output files in the form like ```wrfout_d01_2020-08-10_00:00:00```
