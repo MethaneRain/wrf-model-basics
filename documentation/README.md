@@ -20,7 +20,7 @@ Example:
 
 ```$ ./grab_data.sh 20200810 gfs halfdeg 00 6```
 
-This will make create file names to grab in the ```curl``` command into ~/WRF/Build_WRF/DATA/ and display all the data files in that directory.
+This will create file names to grab in the ```curl``` command into ~/WRF/Build_WRF/DATA/ and display all the data files in that directory.
 
 ```$ ./namelist_date_update.sh 20200810 6 21600 00``` 
 
