@@ -9,10 +9,13 @@ My scripts and build are set up are for a very specific GFS model data input set
 The basic automation of scripts for running my configuration are divied into three steps:
 
 1) execute ```grab_data.sh``` script with appropriate arguments
+* <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/documentation/data-grab.md">data-grab.md</a>
 
 2) execute ```namelist_date_update.sh``` script with appropriate arguments
+* <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/documentation/namelist-update.md">namelist-update.md</a>
 
 3) execute ```compile_and_run_wrf.sh``` script 
+* <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/documentation/compile-run.md">compile-run.md</a>
 
 ---
 
