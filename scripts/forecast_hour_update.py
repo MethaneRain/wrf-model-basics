@@ -1,4 +1,4 @@
-# Script to add appropriate leading zeros. 
+# Script to add appropriate leading zeros for forecast hour part of input data filename. 
 # Currently defaulted to GFS filenames which have 3 digits for forecast hours
 import sys
 f_hour = sys.argv[1].zfill(3)
