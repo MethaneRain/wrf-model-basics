@@ -13,7 +13,7 @@ The command line arguments needed are as followed (in specific order):
 </ol>
 
 The data that MMM's tutorial comes from is at: 
-ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/
+<a href="ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/">ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/</a>
 
 And the GFS data is at:
-ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/
+<a href="ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/">ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/</a>
