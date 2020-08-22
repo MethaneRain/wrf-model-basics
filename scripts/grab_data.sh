@@ -38,9 +38,11 @@ echo "--------------------------------------------------------------------"
 OUTPUT=$(python ${path}forecast_hours.py $delta)
 for i in $OUTPUT;
   do
-    fHour=$(python ${path}forecast_hour_update.py ${i})
+    fHour=$(python ${path}forecast_hour_update.py ${i}) # this will put leading zeros needed for file name
     echo "Grabbing ${date} ${modelLow} ${prod} ${initHour} ${fHour}"
     echo "- - - - - - - - - - - - - - - - - - - - - - - - - - -"
+
+    # This Python script will grab the file name based off dictionary keys
     outputString=$(python ${path}model_data_grab.py ${date} ${modelLow} ${prod} ${initHour} ${i})
 
     echo "filename:" $outputString
