@@ -16,7 +16,7 @@ The command line arguments needed are as followed (in specific order):
 
 The Python scripts needed to run the ```grab_data.sh``` script are as follow with details below:
 
-<h3>```model_data_grab.py```</h3>
+<h5><strong><em>model_data_grab.py</em></strong></h5>
 
 ---
 
