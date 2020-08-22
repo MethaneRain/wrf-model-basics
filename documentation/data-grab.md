@@ -2,7 +2,7 @@ The first thing that needs to be done to run the WRF is to grab some input data 
 
 For the most basic run of the WRF, GFS data is ingested. The initial tutorial from MMM provided a quick ```curl``` call to gather half degree files. My first project was to automate this as it would become very tedious to try and write out curl commands for every file, especially if one was looking for multiple forecast hours over say many days/months or even years.
 
-The file ```grab_data.sh``` is a bash script that needs both ```model_data_grab.py``` and some necessary command line arguments. 
+The file ```grab_data.sh``` is a bash script that needs ```model_data_grab.py```, ```forecast_hours.py```, ```forecast_hour_update.py```, and some necessary command line arguments. 
 The command line arguments needed are as followed (in specific order):
 <ol>
 <li>date - ie 20200618</li>
@@ -11,6 +11,14 @@ The command line arguments needed are as followed (in specific order):
 <li>initialization hour (UTC) - ie 00</li>
 <li>forecast time delta - ie 48 (in hours)</li>
 </ol>
+
+---
+
+The Python scripts needed to run the ```grab_data.sh``` script are as follow with details below:
+
+<h3>```model_data_grab.py```</h3>
+
+---
 
 The data that MMM's tutorial comes from: 
 <a href="ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/">ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/</a>
