@@ -12,3 +12,8 @@ The command line arguments needed are as followed (in specific order):
 <li>forecast time delta - ie 48 (in hours)</li>
 </ol>
 
+The data that MMM's tutorial comes from is at: 
+ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/com/gfs/prod/
+
+And the GFS data is at:
+ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/

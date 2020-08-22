@@ -35,6 +35,8 @@ echo "--------------------------------------------------------------------"
 echo "Attempting to grab ${model} data for: ${date}"
 echo "--------------------------------------------------------------------"
 
+
+# Loop through the values for forecast hours 
 OUTPUT=$(python ${path}forecast_hours.py $delta)
 for i in $OUTPUT;
   do
