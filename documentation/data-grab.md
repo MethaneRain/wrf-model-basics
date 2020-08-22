@@ -7,7 +7,7 @@ The command line arguments needed are as followed (in specific order):
 <ol>
 <li>date - ie 20200618</li>
 <li>model - ie gfs</li>
-<li>model product - ie halfdeg (this comes from a dictionary key in <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/model_data_grab.py">model_data_grab.py</a>)</li>
+<li>model product - ie halfdeg (this comes from a dictionary key in <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/scripts/model_data_grab.py">model_data_grab.py</a>)</li>
 <li>initialization hour (UTC) - ie 00</li>
 <li>forecast time delta - ie 48 (in hours)</li>
 </ol>
