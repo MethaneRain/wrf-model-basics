@@ -16,7 +16,9 @@ The command line arguments needed are as followed (in specific order):
 
 The Python scripts needed to run the ```grab_data.sh``` script are as follow with details below:
 
-<h5><strong><em>model_data_grab.py</em></strong></h5>
+<h4><strong><em>model_data_grab.py</em></strong></h4>
+
+This script does the heavy lifting as far as retrieving the input data. 
 
 ---
 
@@ -25,3 +27,5 @@ The data that MMM's tutorial comes from:
 
 And the GFS data is at:
 <a href="ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/">ftp://ftpprd.ncep.noaa.gov/pub/data/nccf/</a>
+
+<a href="ftp://someftpserver.com/">Browse the FTP server</a>
