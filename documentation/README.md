@@ -8,11 +8,17 @@ My scripts and build are set up are for a very specific GFS model data input set
 
 The basic automation of scripts for running my configuration are divied into three steps:
 
-1) execute ```grab_data.sh``` script with appropriate arguments. See <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/documentation/data-grab.md">data-grab.md</a> for details
+1) execute ```grab_data.sh``` script with appropriate arguments. 
 
-2) execute ```namelist_date_update.sh``` script with appropriate arguments. See <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/documentation/namelist-update.md">namelist-update.md</a> for details
+See <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/documentation/data-grab.md">data-grab.md</a> for details
 
-3) execute ```compile_and_run_wrf.sh``` script. See <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/documentation/compile-run.md">compile-run.md</a> for details
+2) execute ```namelist_date_update.sh``` script with appropriate arguments. 
+
+See <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/documentation/namelist-update.md">namelist-update.md</a> for details
+
+3) execute ```compile_and_run_wrf.sh``` script. 
+
+See <a href="https://github.com/MethaneRain/wrf-model-basics/blob/master/documentation/compile-run.md">compile-run.md</a> for details
 
 ---
 
@@ -26,6 +32,6 @@ This will make create file names to grab in the ```curl``` command into ~/WRF/Bu
 
 This will update all the date and time info needed in the ```namelist.wps``` and ```namelist.input``` files
 
-```$ compile_and_run_wrf.sh```
+```$ ./compile_and_run_wrf.sh```
 
 This will create all the necessary ```.exe``` files by running the ```geogrid.exe```, ```ungrib.exe```, and ```metgrid.exe``` files. Then it executes the ```real.exe``` (which can be changed for ideal in the future) and finally executes the ```wrf.exe``` and lists all the wrf output files in the form like ```wrfout_d01_2020-08-10_00:00:00```
