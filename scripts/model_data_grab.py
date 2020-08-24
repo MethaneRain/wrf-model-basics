@@ -8,7 +8,7 @@ Created on Fri Jun 12 16:14:33 2020
 WRF Model Data Grab Package
 ---------------------------
 
-This package is set to grab the basic model data for injesting into the
+This package is set to grab the basic model data for ingesting into the
 WRF model.
 
 Arguments are date, initialization hour, dynamic number of forecast hours, and model
